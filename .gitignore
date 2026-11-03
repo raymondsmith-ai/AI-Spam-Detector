@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# ==========================================
+# AI Spam Detector - Project Specific
+# ==========================================
+
+# Saved machine learning models
+*.joblib
+*.pkl
+
+# Local training datasets
+data/*.csv
+data/*.tsv
+
+# Environment files containing secrets
+.env.*
+
+# Temporary files
+*.tmp
